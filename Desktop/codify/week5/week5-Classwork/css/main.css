@@ -1,0 +1,50 @@
+.navbar {
+  margin-bottom: 0;
+}
+.navbar > a {
+  background-color: #eee;
+}
+span {
+  font-size:10px;
+}
+.thumbnail {
+  border-style: none;
+  width: 380px;
+  height: 330px;
+  border-bottom: 0;
+  position:relative;
+}
+.thumbnail > h3 {
+  font-size: 30px;
+}
+#line,#line2,#line3 {
+  width: 370px;
+  height: 150px;
+}
+img {
+  width: 360px;
+  height: 150px;
+  margin:0px;
+}
+.caption .btn-primary {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+.footer {
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 75px;
+}
+.jumbotron h1, .jumbotron h1, .jumbotron p {
+  color: #303030;
+  text-decoration: none;
+}
+hr {
+  width:95%;
+  text-align: center;
+  margin-right: 100px;
+  top: 0;
+}
+.caption >
