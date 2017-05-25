@@ -4,6 +4,9 @@
 .navbar > a {
   background-color: #eee;
 }
+a:hover {
+  text-decoration: none;
+}
 span {
   font-size:10px;
 }
@@ -13,9 +16,11 @@ span {
   height: 330px;
   border-bottom: 0;
   position:relative;
+  color:inherit;
 }
-.thumbnail > h3 {
+.thumbnail h3 {
   font-size: 30px;
+  padding-left: 0;
 }
 #line,#line2,#line3 {
   width: 370px;
@@ -30,6 +35,16 @@ img {
     color: #fff;
     background-color: #1abc9c;
     border-color: #1abc9c;
+    background-image: none;
+}
+button .btn-default, a.btn.btn-primary.btn-lg {
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  background-image: none;
+}
+button.btn.btn-default {
+  font-size:18px;
 }
 .footer {
   text-align: left;
@@ -47,4 +62,11 @@ hr {
   margin-right: 100px;
   top: 0;
 }
-.caption >
+body {
+  margin:0;
+  padding:0;
+  border:0;
+}
+p, h3 {
+ color:#333;
+}
