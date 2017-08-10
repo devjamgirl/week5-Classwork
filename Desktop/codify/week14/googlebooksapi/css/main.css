@@ -1,0 +1,106 @@
+* {
+  text-align: center;
+  color: #0e154f;
+}
+body{
+  background-color: #c6e2ef;
+}
+#input {
+width: 500px;
+margin: 40px;
+margin-left: 325px;
+cursor: pointer;
+}
+#head {
+  margin-top: 100px;
+  color:#08567a;
+}
+form {
+margin-bottom: 20px;
+}
+.btn-btn-primary{
+  margin-top: 10px;
+}
+@media (max-width: 1204px){
+  #input {
+    margin-left: 240px;
+  }
+}
+@media (max-width: 992px){
+  #input {
+    margin-left: 135px;
+  }
+}
+@media (max-width: 760px){
+  #input {
+    margin-left: 115px;
+  }
+}
+@media (max-width: 715px){
+  #input {
+    margin-left: 115px;
+    width: 450px;
+  }
+}
+@media (max-width: 680px){
+  #input {
+    margin-left: 100px;
+    width: 400px;
+  }
+  #head{
+    font-size: 30px;
+  }
+}
+@media (max-width: 602px){
+  #input {
+    margin-left: 100px;
+    width: 350px;
+  }
+  #head{
+    font-size: 30px;
+  }
+}
+@media (max-width: 554px){
+  #input {
+    margin-left: 90px;
+    width: 350px;
+  }
+  #head{
+    font-size: 25px;
+  }
+}
+@media (max-width: 503px){
+  #input {
+    margin-left: 80px;
+    width: 350px;
+  }
+  #head{
+    font-size: 25px;
+    margin-left: 25px;
+  }
+}
+@media (max-width: 481px){
+  #input {
+    margin-left: 60px;
+    width: 325px;
+  }
+  #head{
+    font-size: 23px;
+    margin-left: 25px;
+  }
+}
+@media (max-width: 451px){
+  #input {
+    margin-left: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  #head{
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .btn {
+    margin-top: 0px;
+  }
+}
